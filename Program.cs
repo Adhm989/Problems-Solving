@@ -1,4 +1,6 @@
-﻿namespace Solving_problems
+﻿using Solving_problems.Problems;
+
+namespace Solving_problems
 {
     internal class Program
     {
@@ -41,57 +43,57 @@
             }
             return res;
         }  
-        public static int SearchInRotatedArray(int[] nums, int target)
-        {
-            int start = 0;
-            int end = nums.Length-1;
-            int mid = (start + end) / 2;
-            int res = binarysearch(start, mid, end, nums, target);
-            return res;
-        }
-        public static int binarysearch(int start , int mid , int end , int[] nums , int target)
-        {
-            if (nums[mid] == target)
-                return mid;
-            if (nums[mid] >= nums[start])
-            {
-                if (nums[mid] < target || nums[start]> target) 
-                {
-                    start = mid + 1; 
-                    mid = (start + end) / 2;   
-                    return binarysearch(start, mid , end , nums , target);
-                }
-                else
-                {
-                    end = mid - 1; 
-                    mid = (start +end) / 2;
-                    return binarysearch(start, mid , end , nums , target);
-                }
-            }
-            else
-            {
-                if(target < nums[mid] || target > nums[end])
-                {
-                    end = mid - 1; 
-                    mid = (start +end) / 2;
-                    return binarysearch(start, mid , end , nums , target);
-                }
-                else
-                {
-                    start = mid + 1; 
-                    mid = (start +end) / 2;
-                    return binarysearch(start, mid , end , nums , target);
-                }
-            }
-            return -1;
+        //public static int SearchInRotatedArray(int[] nums, int target)
+        //{
+        //    int start = 0;
+        //    int end = nums.Length-1;
+        //    int mid = (start + end) / 2;
+        //    int res = binarysearch(start, mid, end, nums, target);
+        //    return res;
+        //}
+        //public static int binarysearch(int start , int mid , int end , int[] nums , int target)
+        //{
+        //    if (nums[mid] == target)
+        //        return mid;
+        //    if (nums[mid] >= nums[start])
+        //    {
+        //        if (nums[mid] < target || nums[start]> target) 
+        //        {
+        //            start = mid + 1; 
+        //            mid = (start + end) / 2;   
+        //            return binarysearch(start, mid , end , nums , target);
+        //        }
+        //        else
+        //        {
+        //            end = mid - 1; 
+        //            mid = (start +end) / 2;
+        //            return binarysearch(start, mid , end , nums , target);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        if(target < nums[mid] || target > nums[end])
+        //        {
+        //            end = mid - 1; 
+        //            mid = (start +end) / 2;
+        //            return binarysearch(start, mid , end , nums , target);
+        //        }
+        //        else
+        //        {
+        //            start = mid + 1; 
+        //            mid = (start +end) / 2;
+        //            return binarysearch(start, mid , end , nums , target);
+        //        }
+        //    }
+        //    return -1;
 
-        }
+        //}
 
 
         static void Main(string[] args)
         {
             int[] nums = { 5, 6, 7, 8, 9, 10, 1, 2, 3 };
-            int res = SearchInRotatedArray(nums , 10);
+            int res = SearchInSortedRotatedArray.SearchInRotatedArray(nums , 10);
             Console.WriteLine(res);
         }
     }
