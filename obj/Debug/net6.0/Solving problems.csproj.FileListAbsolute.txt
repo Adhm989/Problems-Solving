@@ -13,3 +13,18 @@ E:\projects\Solving problems\obj\Debug\net6.0\refint\Solving problems.dll
 E:\projects\Solving problems\obj\Debug\net6.0\Solving problems.pdb
 E:\projects\Solving problems\obj\Debug\net6.0\Solving problems.genruntimeconfig.cache
 E:\projects\Solving problems\obj\Debug\net6.0\ref\Solving problems.dll
+E:\My_Github\Problems-Solving\bin\Debug\net6.0\Solving problems.exe
+E:\My_Github\Problems-Solving\bin\Debug\net6.0\Solving problems.deps.json
+E:\My_Github\Problems-Solving\bin\Debug\net6.0\Solving problems.runtimeconfig.json
+E:\My_Github\Problems-Solving\bin\Debug\net6.0\Solving problems.dll
+E:\My_Github\Problems-Solving\bin\Debug\net6.0\Solving problems.pdb
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.csproj.AssemblyReference.cache
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.GeneratedMSBuildEditorConfig.editorconfig
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.AssemblyInfoInputs.cache
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.AssemblyInfo.cs
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.csproj.CoreCompileInputs.cache
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.dll
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\refint\Solving problems.dll
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.pdb
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\Solving problems.genruntimeconfig.cache
+E:\My_Github\Problems-Solving\obj\Debug\net6.0\ref\Solving problems.dll

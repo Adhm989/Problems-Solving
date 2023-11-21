@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\Solving problems\\Solving problems.csproj": {}
+    "E:\\My_Github\\Problems-Solving\\Solving problems.csproj": {}
   },
   "projects": {
-    "E:\\projects\\Solving problems\\Solving problems.csproj": {
+    "E:\\My_Github\\Problems-Solving\\Solving problems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\Solving problems\\Solving problems.csproj",
+        "projectUniqueName": "E:\\My_Github\\Problems-Solving\\Solving problems.csproj",
         "projectName": "Solving problems",
-        "projectPath": "E:\\projects\\Solving problems\\Solving problems.csproj",
+        "projectPath": "E:\\My_Github\\Problems-Solving\\Solving problems.csproj",
         "packagesPath": "C:\\Users\\Laptop\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\Solving problems\\obj\\",
+        "outputPath": "E:\\My_Github\\Problems-Solving\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
