@@ -20,6 +20,8 @@ namespace Solving_problems.Problems
         {
             if (nums[mid] == target)
                 return mid;
+            if (mid == start && mid == end && nums[mid] != target)
+                return -1;
             if (nums[mid] >= nums[start])
             {
                 if (nums[mid] < target || nums[start] > target)
